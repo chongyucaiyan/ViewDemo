@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ViewEvent</string>
+
+    <string name="demo01">demo01</string>
+    <string name="demo02">demo02</string>
+
+    <string name="text_view">TextView</string>
+    <string name="button">Button</string>
 </resources>

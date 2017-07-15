@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.cyc.viewevent.demo01.MyLinearLayout01 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_demo01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.github.cyc.viewevent.demo01.Demo01Activity">
+
+    <com.github.cyc.viewevent.demo01.MyTextView01
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tv_default_height"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/text_view" />
+
+    <com.github.cyc.viewevent.demo01.MyButton01
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_default_height"
+        android:layout_marginTop="@dimen/default_vertical_margin"
+        android:textAllCaps="false"
+        android:text="@string/button" />
+</com.github.cyc.viewevent.demo01.MyLinearLayout01>
